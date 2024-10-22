@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    /*position: relative;*/
+}
+
+.item1{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(232, 170, 232);
+   /* position: relative;
+    /*Sobreposição: TOP, LEFT, RIGHT, BOTTOM*/
+    /*top: 30px;*/
+   /* left: 30px;*/
+    z-index: -1; /* z-index define o que vai ficar na frente*/
+    /*position: absolute;*/
+    /*podemos definir a posição exata */
+    /*bottom: 0;*/
+    /*position: fixed;*/
+    /*o elemento fica fixo na tela*/
+    position: sticky;
+    top: 0;
+   /*Scrool limitado*/
+}
+body{
+    height: 5000000px;
+}
+
+.item2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(170, 205, 232);
+}

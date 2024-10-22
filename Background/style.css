@@ -1,0 +1,63 @@
+.textoImagem{
+    font-size: 100px;
+    background-image: url(https://images.beta.cosmos.so/9f4bc59e-64eb-4c6c-9505-2bae495c00a6?format=jpeg);
+    background-size: cover;
+
+    color: transparent;
+    background-clip: text;
+}
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.gradiente{
+    /* background: linear-gradient( 20deg, blue, pink); */
+    background-color: black;
+    /* position: relative; */
+    height: 300px;
+    color: white;
+}
+
+.bola{ 
+    position: absolute;
+    background: linear-gradient(#B41D6C, #6A3279);
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    filter: blur(40px);
+    left: -50px;
+    top: 150px;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.bola2{
+    height: 100px;
+    width: 100px; 
+    position: absolute;
+    background: linear-gradient(#6A3279, #4848D8);
+    right: -50px;
+    bottom: -80px;
+    border-radius: 360px;
+    filter: blur(40px);
+    opacity: 1.0;
+    z-index: 1;
+}
+
+.bola3{
+     height: 100px;
+    width: 100px; 
+    position: absolute;
+    background: linear-gradient(#B41D6C, #4848D8);
+    right: 270px;
+    bottom: -80px;
+    border-radius: 360px;
+    filter: blur(40px);
+    opacity: 1.0;
+    z-index: 1;
+}
+.gradiente p {
+    position: relative;
+    z-index: 2;
+}
